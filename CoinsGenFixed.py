@@ -2,7 +2,7 @@ def colored(r, g, b, text):
     return "\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(r, g, b, text)
   
 text = 'AminoCoinGen'
-text2 = 'Fixed by 3looy'
+text2 = '...'
 colored_text = colored(255, 0, 0, text)
 print(colored_text)
 from box import tzFilter
